@@ -1,0 +1,9 @@
+{
+  "alphabet": ["L", "R", "F", "+", "-"],
+  "axiom": "L",
+  "constants": ["F", "+", "-"],
+  "rules": [
+    {"symbol": "L", "replacement": "-RF+LFL+FR-"},
+    {"symbol": "R", "replacement": "+LF-RFR-FL+"}
+  ]
+}
